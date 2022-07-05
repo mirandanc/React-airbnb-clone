@@ -1,12 +1,31 @@
-.App {
+.app {
   display: flex;
+  background-color: rgb(233, 233, 233);
 }
 
 .main {
   flex-basis: 60%;
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
+}
+
+.search {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.search input {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: #999;
+  width: 100%;
+}
+
+.flats {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .map {
@@ -14,11 +33,4 @@
   height: 100vh;
   top: 0;
   position: sticky;
-  background-color: bisque;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
 }
